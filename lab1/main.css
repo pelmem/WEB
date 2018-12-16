@@ -1,0 +1,113 @@
+#container{
+	width:1260px;
+	margin:auto;
+	
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	}
+
+#container{
+	width:1260px;
+	margin:auto;
+	
+}
+
+#nav{
+	float:left;
+	height:100px;
+	width:635px;
+	
+	border:1px solid black;
+	}
+#header{
+	height:100px;
+	background:black;
+border:1px solid black;
+
+	}
+
+#content{
+	width:1260px;
+	
+	}
+
+#sidebar{
+	float:left;
+	height:auto;
+	width: 50%;
+	margin-top: 20px;
+	}
+#footer{
+	float:right;	
+	height: auto;
+	width:50%;
+	margin-top: 20px;	
+}
+
+
+#nav ul{
+	margin:0 80px;
+	padding:35px 0 0 0;
+	text-aling:center;
+	wight:100%;
+	}
+ul li{
+	list-style-type: none;
+	margin:10px;
+	padding:3px 0;
+	display:inline;
+	}
+#nav ul li a{
+	padding:0 15px;
+	line-height:0px;
+	color:#afafaf;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	}
+#nav ul li a:hover, #nav ul li a.active{
+	color:white;
+	}
+#logo {
+    margin: 0 0 0;
+    text-align: center;
+}
+
+#img-logo {
+    height:80px;
+}
+#main{
+  	margin: 0 10px 0;
+    	text-align: center;
+	weight:1260;
+}
+#img-main{
+        margin: 10px 300px 0;      	
+}
+#img-sidebar {
+    	height:60px;
+	margin:0 100px 0;	
+}
+#img-ft {
+    height:50px;
+    margin:0 130px 0;
+
+}
+#news{
+	text-align: center;
+	margin-top:20px;
+}
+#venue img {
+    	height: 300px;
+    	margin:0 100px;
+}
+#artists {
+  	text-align: center;
+   	
+}
+#artists img {
+   	margin-top:30px;
+}
